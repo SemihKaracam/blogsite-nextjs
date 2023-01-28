@@ -1,0 +1,29 @@
+.singlePost{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postImg{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.postImg img{
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.postInfo > *{
+    text-align: center;
+}
+
+.postTitle{
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.postInfo p{
+    opacity: 0.6;
+}
